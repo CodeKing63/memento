@@ -1,8 +1,8 @@
 // Combine and shuffle two arrays
 const shuffle = () => {
     const assets = [
-      { image: '/assets/css.png' },
-      { image: '/assets/html5.png' },
+      { image: '/images/MSeries.png' },
+      { image: '/images/CSeries.png' },
       { image: '/assets/jquery.png'},
       { image: '/assets/js.png' },
       { image: '/assets/next.png' },
