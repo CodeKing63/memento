@@ -1,6 +1,5 @@
 const Card = ({ image, selected, onClick }) => {
 
-
     return (
       <div className="card">
         <div className={selected && 'selected'}>
@@ -9,7 +8,7 @@ const Card = ({ image, selected, onClick }) => {
           <img
             alt=""
             className="card-back"
-            src={'/assets/fireship.png'}
+            src={'/assets/osync.png'}
             onClick={onClick}
           />
         </div>
