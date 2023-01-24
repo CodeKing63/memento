@@ -1,10 +1,11 @@
+
 // Combine and shuffle two arrays
 const shuffle = () => {
     const assets = [
       { image: '/images/MSeries.png' },
       { image: '/images/CSeries.png' },
-      { image: '/assets/jquery.png'},
-      { image: '/assets/js.png' },
+      { image: '/images/GSeries.png'},
+      { image: '/images/SSeries.png' },
       { image: '/assets/next.png' },
       { image: '/assets/node.png' },
       { image: '/assets/react.png'},

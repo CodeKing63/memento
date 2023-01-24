@@ -1,19 +1,19 @@
 const Card = ({ image, selected, onClick }) => {
 
-    return (
-      <div className="card">
-        <div className={selected && 'selected'}>
-          <img alt="" src={image} className="card-face" />
+  return (
+    <div className="card">
+      <div className={selected && 'selected'}>
+        <img alt="" src={image} className="card-face" />
   
-          <img
-            alt=""
-            className="card-back"
-            src={'/assets/osync.png'}
-            onClick={onClick}
-          />
-        </div>
+        <img
+          alt=""
+          className="card-back"
+          src={'/assets/osync.png'}
+          onClick={onClick}
+        />
       </div>
-    );
-  };
+    </div>
+  );
+};
   
   export default Card;
