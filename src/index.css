@@ -75,6 +75,11 @@ button {
   border-radius: 3px;
   margin: auto;
 }
+button:hover {
+  background: var(--orange);
+  color: var(--card);
+  cursor: pointer;
+}
 
 /* ========= Grid ========================= */
 .grid {

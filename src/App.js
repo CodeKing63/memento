@@ -6,6 +6,7 @@ import shuffle from './utilities/shuffle';
 
 function App() {
   const [wins, setWins] = useState(0); // Win streak
+  const [trys, setTrys] = useState(0); // Total trys
   const [cards, setCards] = useState(shuffle); // Cards array from assets
   const [pickOne, setPickOne] = useState(null); // First selection
   const [pickTwo, setPickTwo] = useState(null); // Second selection
@@ -17,6 +18,7 @@ function App() {
     if (!disabled) {
       pickOne ? setPickTwo(card) : setPickOne(card);
     }
+    setTrys(trys + 1);
   };
 
   const handleTurn = () => {
@@ -82,7 +84,7 @@ function App() {
       handleTurn();
       setCards(shuffle);
     }
-  }, [cards, setBadge, wins]);
+  }, [cards, setBadge, wins, trys]);
 
   return (
     <>

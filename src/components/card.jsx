@@ -16,4 +16,4 @@ const Card = ({ image, selected, onClick }) => {
   );
 };
   
-  export default Card;
+export default Card;
